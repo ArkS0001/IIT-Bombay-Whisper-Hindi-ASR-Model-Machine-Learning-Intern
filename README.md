@@ -67,3 +67,19 @@ python
                   print("WER:", wer_score)
 
 This code calculates the WER between a reference transcription and a hypothesis transcription by first splitting them into lists of words and then using the Levenshtein distance algorithm to compute the minimum number of edits (insertions, deletions, substitutions) required to transform the hypothesis into the reference transcription. Finally, it normalizes this edit distance by the length of the reference transcription to obtain the WER.
+
+Python module for evaluting ASR hypotheses (i.e. word error rate and word recognition rate).
+
+This module depends on the editdistance project, for computing edit distances between arbitrary sequences.
+
+The formatting of the output of this program is very loosely based around the same idea as the align.c program commonly used within the Sphinx ASR community. This may run a bit faster if neither instances nor confusions are printed.
+
+Please let me know if you have any comments, questions, or problems.
+Output
+
+The program outputs three standard measurements:
+
+    Word error rate (WER)
+    Word recognition rate (the number of matched words in the alignment divided by the number of words in the reference).
+    Sentence error rate (SER) (the number of incorrect sentences divided by the total number of sentences).
+
