@@ -74,12 +74,11 @@ This module depends on the editdistance project, for computing edit distances be
 
 The formatting of the output of this program is very loosely based around the same idea as the align.c program commonly used within the Sphinx ASR community. This may run a bit faster if neither instances nor confusions are printed.
 
-Please let me know if you have any comments, questions, or problems.
-Output
-
 The program outputs three standard measurements:
 
     Word error rate (WER)
     Word recognition rate (the number of matched words in the alignment divided by the number of words in the reference).
     Sentence error rate (SER) (the number of incorrect sentences divided by the total number of sentences).
+
+![approach](https://github.com/ArkS0001/IIT-Bombay-Machine-Learning-Intern/assets/113760964/31d4bfa5-c223-4168-8095-a141c3906b0a)
 
