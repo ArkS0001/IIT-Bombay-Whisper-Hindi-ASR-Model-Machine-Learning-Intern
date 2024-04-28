@@ -1,3 +1,4 @@
+![yums](https://images.openai.com/blob/18ff9c06-7853-4e3b-946f-508f0cd7ed13/asr-details-desktop.svg?width=10&height=10&quality=50)
 # IIT-Bombay-Machine-Learning-Intern
 
 Link: https://github.com/openai/whisper
